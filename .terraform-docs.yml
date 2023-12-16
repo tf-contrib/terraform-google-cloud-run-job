@@ -1,0 +1,20 @@
+---
+formatter: markdown table
+
+output:
+  file: README.md
+  mode: replace
+
+sections:
+  show-all: true
+
+sort:
+  enabled: true
+  by: required
+
+settings:
+  indent: 2
+  color: true
+  escape: true
+  required: true
+  sensitive: true
